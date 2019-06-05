@@ -1,0 +1,12 @@
+server:
+  port: 8987
+
+spring:
+  application:
+    name: client
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8761/eureka/,http://peer2:8762/eureka/
+
